@@ -1,0 +1,86 @@
+body {
+
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 30%;
+}
+
+h1 {
+    text-align: center;
+    padding-left: 10%;
+}
+
+.add-task-container {
+    display: flex;
+    align-items: center;
+}
+
+#add-task-button {
+    flex-basis: 100px;
+    height: 36px;
+    background-color: pink;
+    border: 1px solid darkgray;
+    color: white;
+    font-weight: bold;
+}
+
+#input-task {
+    margin-right: 10px;
+    flex-grow: 2;
+    height: 30px;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    border-bottom: 3px solid black;
+}
+
+.list-container {
+    width: 300px;
+}
+
+ul {
+    padding: 5px;
+    text-align: left;
+}
+
+li {
+    text-align: left;
+    list-style-type: none;
+    display: flex;
+    padding: 5px;
+}
+
+.delete-btn img {
+    width: 15px;
+}
+
+.delete-btn {
+    padding: 0;
+    margin-left: 20%;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+span {
+    flex-grow: 2;
+    padding-left: 10px;
+}
+
+.check {
+    text-decoration: line-through;
+}
+
+input[type=checkbox]:checked + span {
+    text-decoration: line-through;
+}
+
+li input {
+}
